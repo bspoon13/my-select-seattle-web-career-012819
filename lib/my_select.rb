@@ -5,6 +5,7 @@ def my_select(collection)
     if(yield(collection[i]))
       newArray >> collection[i]
     i += 1
+    else
   end
-
+  newArray
 end
