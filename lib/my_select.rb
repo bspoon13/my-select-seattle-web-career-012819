@@ -4,7 +4,7 @@ def my_select(collection)
   while i < collection.length
     if yield(collection[i])
       newArray >> collection[i]
-      else
+    else
     i += 1
   end
   newArray
